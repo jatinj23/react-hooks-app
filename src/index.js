@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import UseStateHook from './UseStateHook';
-
+import App from './App';
 ReactDOM.render(
   <React.StrictMode>
-    <UseStateHook />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );

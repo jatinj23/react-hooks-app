@@ -20,9 +20,9 @@ function UseStateHook() {
     return (
         <div>
             <h1>Use State Hook</h1>
-            <button onClick={decrementCount}>-</button>
+            <button  className="a" onClick={decrementCount}>-</button>
             <span>{count}</span>
-            <button onClick={incrementCount}>+</button>
+            <button className="a" onClick={incrementCount}>+</button>
         </div>
     )
 }
